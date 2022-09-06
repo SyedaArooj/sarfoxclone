@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,72 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.head{
+  background-image: url(./Components/images/banner.jpg);
+  background-size: 100% 100%;
+}
+.srvcbg{
+  background-image: url(./Components/images/shape.png);
+  background-size: 100% 100%;
+  background-color: ghostwhite;
+}
+.cardbg{
+  /* background-image: url(./Components/images/choose.png);
+  background-size: 100% 100%; */
+  background-color: whitesmoke;
+}
+/* .cardbg:hover{
+  background-image: url(./Components/images/choose.png);
+  background-size: 100% 100%;
+
+} */
+/* button {
+  color: #ecf0f1;
+  background: #e74c3c;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  font-size: 1.5em;
+  position: relative;
+}
+
+button span {
+  position: absolute;
+  transition: 300ms;
+  background: white;
+  border-radius: 2px;
+} */
+
+/* Create the "+" shape by positioning the spans absolutely */
+/* button span:first-child {
+  top: 25%;
+  bottom: 25%;
+  width: 10%;
+  left: 45%;
+} */
+
+/* button span:last-child {
+  left: 25%;
+  right: 25%;
+  height: 10%;
+  top: 45%;
+} */
+
+/* Morph the shape when the button is hovered over */
+/* button:hover span {
+  transform: rotate(90deg);
+}
+
+button:hover span:last-child {
+  left: 50%;
+  right: 50%;
+} */
+
+.skillbg{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(./Components/images/skill.jpg);
+  background-size: 100% 100%;
+
+
+
 }
